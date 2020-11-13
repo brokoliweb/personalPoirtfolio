@@ -93,7 +93,8 @@ body {
 
 .contact-img {
     
-    transform: scale(0.4);
+    width: 40%;
+    height: auto;
     border: solid black 10px;
     border-radius: 50%;
     
@@ -102,5 +103,7 @@ body {
 
 
 @media only screen and (max-width: 600px) {
-    
+    #navbar {
+        justify-content: center;
+    }
 }
